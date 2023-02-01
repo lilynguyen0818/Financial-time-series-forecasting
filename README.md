@@ -55,7 +55,7 @@ Table 1: The score tables of different sliding windows length data
 | ElasticNet regression | 0.989 | 0.989 | 0.990 | 0.990 |
 | Polynomial regression | 0.989 | 0.985 | 0.958 | 0.513 |
 
-As can be seen from the score_table, ElasticNet Regression without window information has higher R2 than linear regression model, which is equal to 1.
+As can be seen from the score_table,  without window information Linear Regression has higher R2 than ElasticNet Regression and Polynomial Regression.
 For models adopting polynomial regression, R2 starts to decrease as the number of window sliding expands.
 In linear regression, R2 slightly decreases with the window information attached.
 
