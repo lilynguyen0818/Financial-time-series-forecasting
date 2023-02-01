@@ -60,7 +60,7 @@ For models adopting polynomial regression, R2 starts to decrease as the number o
 In linear regression, R2 slightly decreases with the window information attached.
 
 ## Part 5:
-The implementation of investment decision is performed by calculating the hit ratio of different setups. The hit ratio is the number of times a correct prediction has been made in realtion to the total number of predictions.
+The implementation of investment decision is performed by calculating the hit ratio of different setups. The hit ratio is the number of times a correct prediction has been made in relation to the total number of predictions.
 
 The forecast of closing price for one week ahead is also done for comparision with the hit ration of one-day forecast.
 
