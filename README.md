@@ -82,7 +82,7 @@ The forecast of closing price for one week ahead is also done for comparision wi
 | one_week | 0.524 | 0.498 | 0.497 | 0.496 |
 
 From the hit_table, we can see that the hit ratios for data of one_week forecast is mostly higher than those of one_day forecast. Prediction with longer stretch of time usually impoves forecast accuracy. As more information aggregating over time, the same effect of larger changes in prices restraining the impact of random variation can be seen.
-This might explain why the setup of one_week forecast produces better hit ratios than that of one_day forecast. Overall, forecast for one week ahead adopting linear regression provides more stable and higher hit ratios, which seem to be the best setup of all.
+This might explain why the setup of one_week forecast produces better hit ratios than that of one_day forecast. Overall, forecast for one week ahead adopting linear regression provides more stable and higher hit ratios, which seems to be the best setup of all.
 
 
 
