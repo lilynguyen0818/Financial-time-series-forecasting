@@ -17,7 +17,7 @@ The process of stock price prediction is as follows.
 - Pre-splitting the data into train and test set based on 80/20 ratio for standardization process to avoid information leakeage to the test set
 - Applying standardization technique using StandardScaler to scale the sample into unit norm
 - Merging the standardized train and test set to assign X (the features the prediction) and y (the label of the prediction). y is created by shifting the Close value one step
-- Splitting X and y into train and test sets uisng 80/20 ratio
+- Splitting X and y into train and test sets using 80/20 ratio
 - Performing the regression models in the train set of X and y
 - Predicting the stock price using the test set of X and y
 - Comparing the coefficients of determination (R-Squared) to determine the realiabilty of the models
