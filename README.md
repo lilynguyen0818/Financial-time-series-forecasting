@@ -47,7 +47,7 @@ advantage of finding the good model that makes use of information of variables a
 In this part, On Balance Volume is added as a feature of the stock price.
 The sliding windows for the input data are created before feeding the data into a Polynomial regression. The window length is 10, 5, and 2 samples equivalently. For comparison purpose, Linear and ElasticNet regression models are also performed on the sliding window data.
 
-Table 1: The score tables of different sliding windows length data
+*Table 1: The score tables of different sliding windows length data*
 
 | Model/window | no_window | 2_window | 5_window | 10_window |
 | --- | --- | --- | --- | --- | 
@@ -64,7 +64,7 @@ The implementation of investment decision is performed by calculating the hit ra
 
 The forecast of closing price for one week ahead is also done for comparision with the hit ratio of one-day forecast.
 
-Table 2: The hit ratio table of different setups
+*Table 2: The hit ratio table of different setups*
 
 | Linear_Step/Forecast | no_window | 2_window | 5_window | 10_window |
 | --- | --- | --- | --- | --- | 
